@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[31]:
-
-
 import gurobipy as gp
 from gurobipy import GRB
 import numpy as np
@@ -206,29 +200,3 @@ for j in range(0,7):
                     day="saturday"
                 hour = k%24
                 print("day: "+ day + " hour: "+ str(hour) + " (military)")
-    
-
-
-# In[17]:
-
-
-
-
-
-# In[79]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
